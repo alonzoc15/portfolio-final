@@ -5,6 +5,7 @@ body {
 
 body .page {
     background-color: #CFC5A1;
+    position: relative;
 }
 
 .navigation {
@@ -207,7 +208,7 @@ hr {
     border: 1px solid #f2f2f2;
     padding-left: 25px;
     outline: none;
-    color: #f2f2f2;
+    color: #000000;
 }
 
 .form1 button {
@@ -463,4 +464,34 @@ hr {
 .technologyIcons4 i {
     font-size: 60px;
     margin: 10px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.app-image {
+    flex: 1 1 auto;
+}
+
+.recipe-junkie {
+    flex: 1;
+}
+
+.chicken-crossing {
+    flex: 1;
+}
+
+.project-buttons {
+    position: relative;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 40px;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-top: 5%;
 }
