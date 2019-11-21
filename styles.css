@@ -1,10 +1,7 @@
-* {
-    position: relative;
-}
 html {
     background-color: #CFC5A1;
-
 }
+
 body {
     padding: 0px;
     margin: 0px;
@@ -205,7 +202,7 @@ hr {
     border: 1px solid #f2f2f2;
     padding-left: 25px;
     outline: none;
-    color: #f2f2f2;
+    color: #000000;
 }
 
 .form1 textarea {
