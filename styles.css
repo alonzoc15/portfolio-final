@@ -166,6 +166,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: 20rem;
     }
     .form1 h1{
         font-size: 60px;
@@ -428,6 +429,7 @@
         height: 100vh;
         display: flex;
         flex-direction: column;
+        margin: 0 auto;
         /* border: 1px solid #f2f2f2; */
     }
     .projectTitle{
@@ -683,7 +685,7 @@
         margin-top: 0px;
         display: flex;
         flex-wrap: wrap;
-        height: 100vh;
+        /* height: 100vh; */
         align-content: center;
     }
 
@@ -976,7 +978,7 @@ hr{
     align-items: center;
     justify-content: center;
 }
-.projects{
+.projects {
     padding: 50px 0px 50px 0px;
     display: flex;
     flex-direction: column;
@@ -1094,6 +1096,9 @@ hr{
 .contact_icon a{
     color: #000000;
     padding: 0px 10px 0px 10px;
+}
+.form_contact{
+    margin-top: 0 !important;
 }
 
 }
