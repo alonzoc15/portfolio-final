@@ -304,11 +304,16 @@
         height: 100%;
     }
     .threeD{
-        width: 50%;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+        margin-top: 200px;
+    }
+    .threeD i {
+        margin: 8px;
+        font-size: 80px;
     }
     .title h1{
         color: #000000;
@@ -319,7 +324,6 @@
         font-size: 16px;
         text-align: center;
     }
-
     .code2 {
         font-family: 'Kalam', cursive;
         color: gray;
@@ -331,7 +335,6 @@
         top: 15px;
         animation: slide1 1s ease-out;
     }
-
     .end2 {
         font-family: 'Kalam', cursive;
         color: gray;
@@ -341,42 +344,6 @@
         position: relative;
         bottom: 5px;
         animation: slide1 1s ease-out;
-    }
-
-    .technologyIcons1 {
-        margin: 10px;
-    }
-
-    .technologyIcons2 {
-        margin: 10px;
-    }
-
-    .technologyIcons3 {
-        margin: 10px;
-    }
-
-    .technologyIcons4 {
-        margin: 10px;
-    }
-
-    .technologyIcons1 i {
-        font-size: 60px;
-        margin: 10px;
-    }
-
-    .technologyIcons2 i {
-        font-size: 60px;
-        margin: 10px;
-    }
-
-    .technologyIcons3 i {
-        font-size: 60px;
-        margin: 10px;
-    }
-
-    .technologyIcons4 i {
-        font-size: 60px;
-        margin: 10px;
     }
 
     /* about */
@@ -1003,7 +970,6 @@ hr{
         width: 100%;
         display: flex;
         flex-direction: column-reverse;
-
     }
     canvas{
         height: 250px;
