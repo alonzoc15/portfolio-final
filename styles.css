@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 2580px) {
     body{
         background-color:#CFC5A1;
         margin: 0px;
@@ -166,7 +166,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 20rem;
     }
     .form1 h1{
         font-size: 60px;
